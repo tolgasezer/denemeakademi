@@ -1,0 +1,77 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sayfa başlığı ve alt bölüm */
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }
+  
+  /* Başlık ve alt bölüm içeriği */
+  header h1, footer p {
+    margin: 0;
+  }
+  
+  /* Navigasyon menüsü */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1em;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Ana içerik bölümü */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Kurs seçenekleri */
+  section {
+    padding: 1em;
+    width: 33.33%;
+    box-sizing: border-box;
+  }
+  
+  /* Başlık */
+  section h2 {
+    margin-top: 0;
+  }
+  
+  /* Kayıt ol butonu */
+  section a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-top: 1em;
+  }
+  
+  section a:hover {
+    background-color: #555;
+  }
+  
